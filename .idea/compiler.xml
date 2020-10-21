@@ -8,14 +8,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="si_assignment_2" />
+        <module name="MessageLog" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="MessageLog" target="1.8" />
       <module name="si_assignment_2" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MessageLog" options="-parameters" />
       <module name="si_assignment_2" options="-parameters" />
     </option>
   </component>
